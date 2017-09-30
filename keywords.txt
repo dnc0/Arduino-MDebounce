@@ -1,0 +1,3 @@
+debounce	 KEYWORD1
+setBounceTime	KEYWORD1
+read		KEYWORD1

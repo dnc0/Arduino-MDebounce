@@ -1,0 +1,17 @@
+///////////////////////////////////
+ARDUINO MDEBOUNCE LIBRARY MANUAL
+by:Marlon Soares
+marlonslbr@gmail.com
+///////////////////////////////////
+
+How to use:
+	1º:Create a object for the button:
+		EX: debounce button = debounce(PIN,PRESSED_STATE)
+		>"PIN" is the Arduino terminal on which the button
+		>"PRESSED_STATE" is the logical state when button is pressed(HIGH or LOW)
+		Tip: using "LOW" for "PRESSED_STATE" the pin is defined as INPUT_PULL,not requiring an adjusting resistor for the button.
+
+	2ºRead the status for the button:
+		EX: button.read()
+		Its return 1(true) if the button is pressed(button is pressed when the logical signal on the button pin is equal to "PRESSES_STATE").
+
